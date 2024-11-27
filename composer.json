@@ -1,0 +1,15 @@
+{
+    "name": "ericb/m07_uf2_monolog-eb",
+    "autoload": {
+        "psr-4": {
+            "Ericb\\M07Uf2MonologEb\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "EricB-59",
+            "email": "ebaenac59@gmail.com"
+        }
+    ],
+    "require": {}
+}
