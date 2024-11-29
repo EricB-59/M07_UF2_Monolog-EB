@@ -1,7 +1,8 @@
+
 <?php
 $steps=0;
 // load dependencies
-require './vendor/autoload.php'; 
+require_once __DIR__ .'/../vendor/autoload.php'; 
 ++$steps;
 use Monolog\Level;
 use Monolog\Logger;
@@ -14,7 +15,7 @@ $log->pushHandler(new StreamHandler("../logs/WorkerDB.log", Level::Error));
 ++$steps;
 
 //ddbb connection, read from miConf.ini
-//TODO
+//$db = parse_ini_file(filename: "../conf/miConf.ini", true)["params_db_sql"];
 ++$steps;
 
 try {
